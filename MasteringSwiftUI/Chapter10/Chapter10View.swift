@@ -28,6 +28,7 @@ struct Chapter10View: View {
         
         // LIST WITH DATA
 
+        // Note: We've used 'indices' instead of half-open range 👈
         List(Restaurant.list.indices, id: \.self) { index in
             let restaurant = Restaurant.list[index]
             if (0...1).contains(index) {
