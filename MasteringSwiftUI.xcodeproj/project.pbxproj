@@ -16,6 +16,18 @@
 		615F801F29D452A5008BA07D /* MasteringSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615F801E29D452A5008BA07D /* MasteringSwiftUIUITestsLaunchTests.swift */; };
 		615F802C29D453D1008BA07D /* Chapter10View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615F802B29D453D1008BA07D /* Chapter10View.swift */; };
 		61876B1229D6B79A007DD054 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61876B1129D6B79A007DD054 /* Restaurant.swift */; };
+		F9AD9BCD29D8244A008932C5 /* Chapter9View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD9BC129D82449008932C5 /* Chapter9View.swift */; };
+		F9AD9BCE29D8244A008932C5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD9BC229D82449008932C5 /* CardView.swift */; };
+		F9AD9BCF29D8244A008932C5 /* Chapter9ExceriseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD9BC329D82449008932C5 /* Chapter9ExceriseView.swift */; };
+		F9AD9BD029D8244A008932C5 /* Chapter9Excerise2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD9BC429D82449008932C5 /* Chapter9Excerise2View.swift */; };
+		F9AD9BD129D8244A008932C5 /* Chapter4ExcerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD9BC529D82449008932C5 /* Chapter4ExcerciseView.swift */; };
+		F9AD9BD229D8244A008932C5 /* Chapter2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD9BC629D82449008932C5 /* Chapter2View.swift */; };
+		F9AD9BD329D8244A008932C5 /* Chapter3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD9BC729D82449008932C5 /* Chapter3View.swift */; };
+		F9AD9BD429D8244A008932C5 /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD9BC829D82449008932C5 /* Chapter4View.swift */; };
+		F9AD9BD529D8244A008932C5 /* Chapter5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD9BC929D82449008932C5 /* Chapter5View.swift */; };
+		F9AD9BD629D8244A008932C5 /* Chapter8View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD9BCA29D82449008932C5 /* Chapter8View.swift */; };
+		F9AD9BD729D8244A008932C5 /* Chapter6View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD9BCB29D82449008932C5 /* Chapter6View.swift */; };
+		F9AD9BD829D8244A008932C5 /* Chapter7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD9BCC29D8244A008932C5 /* Chapter7View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +60,18 @@
 		615F801E29D452A5008BA07D /* MasteringSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasteringSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		615F802B29D453D1008BA07D /* Chapter10View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter10View.swift; sourceTree = "<group>"; };
 		61876B1129D6B79A007DD054 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		F9AD9BC129D82449008932C5 /* Chapter9View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter9View.swift; sourceTree = "<group>"; };
+		F9AD9BC229D82449008932C5 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F9AD9BC329D82449008932C5 /* Chapter9ExceriseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter9ExceriseView.swift; sourceTree = "<group>"; };
+		F9AD9BC429D82449008932C5 /* Chapter9Excerise2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter9Excerise2View.swift; sourceTree = "<group>"; };
+		F9AD9BC529D82449008932C5 /* Chapter4ExcerciseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter4ExcerciseView.swift; sourceTree = "<group>"; };
+		F9AD9BC629D82449008932C5 /* Chapter2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter2View.swift; sourceTree = "<group>"; };
+		F9AD9BC729D82449008932C5 /* Chapter3View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter3View.swift; sourceTree = "<group>"; };
+		F9AD9BC829D82449008932C5 /* Chapter4View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
+		F9AD9BC929D82449008932C5 /* Chapter5View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter5View.swift; sourceTree = "<group>"; };
+		F9AD9BCA29D82449008932C5 /* Chapter8View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter8View.swift; sourceTree = "<group>"; };
+		F9AD9BCB29D82449008932C5 /* Chapter6View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter6View.swift; sourceTree = "<group>"; };
+		F9AD9BCC29D8244A008932C5 /* Chapter7View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter7View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +124,14 @@
 			children = (
 				615F800129D452A4008BA07D /* MasteringSwiftUIApp.swift */,
 				615F800329D452A4008BA07D /* ContentView.swift */,
+				F9AD9BD929D82461008932C5 /* Chapter2 */,
+				F9AD9BDA29D82469008932C5 /* Chapter3 */,
+				F9AD9BDB29D8247C008932C5 /* Chapter4 */,
+				F9AD9BDC29D82485008932C5 /* Chapter5 */,
+				F9AD9BDD29D8248C008932C5 /* Chapter6 */,
+				F9AD9BDE29D82495008932C5 /* Chapter7 */,
+				F9AD9BDF29D8249D008932C5 /* Chapter8 */,
+				F9AD9BC029D82449008932C5 /* Chapter9 */,
 				61876B1029D6B78A007DD054 /* Chapter10 */,
 				615F800529D452A5008BA07D /* Assets.xcassets */,
 				615F800729D452A5008BA07D /* Preview Content */,
@@ -139,6 +171,74 @@
 				615F802B29D453D1008BA07D /* Chapter10View.swift */,
 			);
 			path = Chapter10;
+			sourceTree = "<group>";
+		};
+		F9AD9BC029D82449008932C5 /* Chapter9 */ = {
+			isa = PBXGroup;
+			children = (
+				F9AD9BC129D82449008932C5 /* Chapter9View.swift */,
+				F9AD9BC229D82449008932C5 /* CardView.swift */,
+				F9AD9BC329D82449008932C5 /* Chapter9ExceriseView.swift */,
+				F9AD9BC429D82449008932C5 /* Chapter9Excerise2View.swift */,
+			);
+			path = Chapter9;
+			sourceTree = "<group>";
+		};
+		F9AD9BD929D82461008932C5 /* Chapter2 */ = {
+			isa = PBXGroup;
+			children = (
+				F9AD9BC629D82449008932C5 /* Chapter2View.swift */,
+			);
+			path = Chapter2;
+			sourceTree = "<group>";
+		};
+		F9AD9BDA29D82469008932C5 /* Chapter3 */ = {
+			isa = PBXGroup;
+			children = (
+				F9AD9BC729D82449008932C5 /* Chapter3View.swift */,
+			);
+			path = Chapter3;
+			sourceTree = "<group>";
+		};
+		F9AD9BDB29D8247C008932C5 /* Chapter4 */ = {
+			isa = PBXGroup;
+			children = (
+				F9AD9BC829D82449008932C5 /* Chapter4View.swift */,
+				F9AD9BC529D82449008932C5 /* Chapter4ExcerciseView.swift */,
+			);
+			path = Chapter4;
+			sourceTree = "<group>";
+		};
+		F9AD9BDC29D82485008932C5 /* Chapter5 */ = {
+			isa = PBXGroup;
+			children = (
+				F9AD9BC929D82449008932C5 /* Chapter5View.swift */,
+			);
+			path = Chapter5;
+			sourceTree = "<group>";
+		};
+		F9AD9BDD29D8248C008932C5 /* Chapter6 */ = {
+			isa = PBXGroup;
+			children = (
+				F9AD9BCB29D82449008932C5 /* Chapter6View.swift */,
+			);
+			path = Chapter6;
+			sourceTree = "<group>";
+		};
+		F9AD9BDE29D82495008932C5 /* Chapter7 */ = {
+			isa = PBXGroup;
+			children = (
+				F9AD9BCC29D8244A008932C5 /* Chapter7View.swift */,
+			);
+			path = Chapter7;
+			sourceTree = "<group>";
+		};
+		F9AD9BDF29D8249D008932C5 /* Chapter8 */ = {
+			isa = PBXGroup;
+			children = (
+				F9AD9BCA29D82449008932C5 /* Chapter8View.swift */,
+			);
+			path = Chapter8;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,9 +372,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				61876B1229D6B79A007DD054 /* Restaurant.swift in Sources */,
+				F9AD9BD629D8244A008932C5 /* Chapter8View.swift in Sources */,
+				F9AD9BCF29D8244A008932C5 /* Chapter9ExceriseView.swift in Sources */,
+				F9AD9BD729D8244A008932C5 /* Chapter6View.swift in Sources */,
+				F9AD9BD129D8244A008932C5 /* Chapter4ExcerciseView.swift in Sources */,
+				F9AD9BCD29D8244A008932C5 /* Chapter9View.swift in Sources */,
+				F9AD9BD829D8244A008932C5 /* Chapter7View.swift in Sources */,
+				F9AD9BD029D8244A008932C5 /* Chapter9Excerise2View.swift in Sources */,
 				615F800429D452A4008BA07D /* ContentView.swift in Sources */,
+				F9AD9BD529D8244A008932C5 /* Chapter5View.swift in Sources */,
 				615F800229D452A4008BA07D /* MasteringSwiftUIApp.swift in Sources */,
+				F9AD9BD429D8244A008932C5 /* Chapter4View.swift in Sources */,
+				F9AD9BCE29D8244A008932C5 /* CardView.swift in Sources */,
 				615F802C29D453D1008BA07D /* Chapter10View.swift in Sources */,
+				F9AD9BD329D8244A008932C5 /* Chapter3View.swift in Sources */,
+				F9AD9BD229D8244A008932C5 /* Chapter2View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
