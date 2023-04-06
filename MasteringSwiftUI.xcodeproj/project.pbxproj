@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		611FE26C29D9C0BC00DDE299 /* Chapter13View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611FE26B29D9C0BC00DDE299 /* Chapter13View.swift */; };
+		611FE26F29D9D6D900DDE299 /* RestaurantRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611FE26E29D9D6D900DDE299 /* RestaurantRowView.swift */; };
+		611FE27129D9DD5300DDE299 /* RestaurantSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611FE27029D9DD5300DDE299 /* RestaurantSettingsView.swift */; };
 		615F800229D452A4008BA07D /* MasteringSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615F800129D452A4008BA07D /* MasteringSwiftUIApp.swift */; };
 		615F800429D452A4008BA07D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615F800329D452A4008BA07D /* ContentView.swift */; };
 		615F800629D452A5008BA07D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615F800529D452A5008BA07D /* Assets.xcassets */; };
@@ -54,6 +57,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		611FE26B29D9C0BC00DDE299 /* Chapter13View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter13View.swift; sourceTree = "<group>"; };
+		611FE26E29D9D6D900DDE299 /* RestaurantRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRowView.swift; sourceTree = "<group>"; };
+		611FE27029D9DD5300DDE299 /* RestaurantSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantSettingsView.swift; sourceTree = "<group>"; };
 		615F7FFE29D452A4008BA07D /* MasteringSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasteringSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		615F800129D452A4008BA07D /* MasteringSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasteringSwiftUIApp.swift; sourceTree = "<group>"; };
 		615F800329D452A4008BA07D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,6 +117,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		611FE26D29D9C0C000DDE299 /* Chapter13 */ = {
+			isa = PBXGroup;
+			children = (
+				611FE26B29D9C0BC00DDE299 /* Chapter13View.swift */,
+				611FE26E29D9D6D900DDE299 /* RestaurantRowView.swift */,
+				611FE27029D9DD5300DDE299 /* RestaurantSettingsView.swift */,
+			);
+			path = Chapter13;
+			sourceTree = "<group>";
+		};
 		615F7FF529D452A4008BA07D = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +163,7 @@
 				61876B1029D6B78A007DD054 /* Chapter10 */,
 				618D796129D826AB004E4C80 /* Chapter11 */,
 				618D796F29D87CCF004E4C80 /* Chapter12 */,
+				611FE26D29D9C0C000DDE299 /* Chapter13 */,
 				615F800529D452A5008BA07D /* Assets.xcassets */,
 				615F800729D452A5008BA07D /* Preview Content */,
 			);
@@ -425,8 +442,10 @@
 				F9AD9BD829D8244A008932C5 /* Chapter7View.swift in Sources */,
 				618D796C29D86638004E4C80 /* Chapter11View-II.swift in Sources */,
 				F9AD9BD029D8244A008932C5 /* Chapter9Excerise2View.swift in Sources */,
+				611FE26C29D9C0BC00DDE299 /* Chapter13View.swift in Sources */,
 				615F800429D452A4008BA07D /* ContentView.swift in Sources */,
 				618D796729D828E1004E4C80 /* Article.swift in Sources */,
+				611FE27129D9DD5300DDE299 /* RestaurantSettingsView.swift in Sources */,
 				F9AD9BD529D8244A008932C5 /* Chapter5View.swift in Sources */,
 				615F800229D452A4008BA07D /* MasteringSwiftUIApp.swift in Sources */,
 				F9AD9BD429D8244A008932C5 /* Chapter4View.swift in Sources */,
@@ -434,6 +453,7 @@
 				615F802C29D453D1008BA07D /* Chapter10View.swift in Sources */,
 				F9AD9BD329D8244A008932C5 /* Chapter3View.swift in Sources */,
 				F9AD9BD229D8244A008932C5 /* Chapter2View.swift in Sources */,
+				611FE26F29D9D6D900DDE299 /* RestaurantRowView.swift in Sources */,
 				618D796E29D87CC7004E4C80 /* Chapter12View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
