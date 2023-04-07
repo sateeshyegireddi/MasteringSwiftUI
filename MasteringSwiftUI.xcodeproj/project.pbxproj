@@ -25,6 +25,10 @@
 		618D796A29D8637B004E4C80 /* TechArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618D796929D8637B004E4C80 /* TechArticle.swift */; };
 		618D796C29D86638004E4C80 /* Chapter11View-II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618D796B29D86638004E4C80 /* Chapter11View-II.swift */; };
 		618D796E29D87CC7004E4C80 /* Chapter12View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618D796D29D87CC7004E4C80 /* Chapter12View.swift */; };
+		61CD353529E0385F001559A7 /* Chapter15View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD353429E0385F001559A7 /* Chapter15View.swift */; };
+		61CD353729E03897001559A7 /* RequirementText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD353629E03897001559A7 /* RequirementText.swift */; };
+		61CD353929E03938001559A7 /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD353829E03938001559A7 /* FormField.swift */; };
+		61CD353B29E04400001559A7 /* UserRegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD353A29E04400001559A7 /* UserRegistrationViewModel.swift */; };
 		61EF650029DF093200A6FF2B /* DisplayOrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF64FF29DF093200A6FF2B /* DisplayOrderType.swift */; };
 		61EF650229DF0AD800A6FF2B /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF650129DF0AD800A6FF2B /* SettingsStore.swift */; };
 		F9AD9BCD29D8244A008932C5 /* Chapter9View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD9BC129D82449008932C5 /* Chapter9View.swift */; };
@@ -80,6 +84,10 @@
 		618D796929D8637B004E4C80 /* TechArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechArticle.swift; sourceTree = "<group>"; };
 		618D796B29D86638004E4C80 /* Chapter11View-II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter11View-II.swift"; sourceTree = "<group>"; };
 		618D796D29D87CC7004E4C80 /* Chapter12View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter12View.swift; sourceTree = "<group>"; };
+		61CD353429E0385F001559A7 /* Chapter15View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter15View.swift; sourceTree = "<group>"; };
+		61CD353629E03897001559A7 /* RequirementText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequirementText.swift; sourceTree = "<group>"; };
+		61CD353829E03938001559A7 /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
+		61CD353A29E04400001559A7 /* UserRegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationViewModel.swift; sourceTree = "<group>"; };
 		61EF64FF29DF093200A6FF2B /* DisplayOrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayOrderType.swift; sourceTree = "<group>"; };
 		61EF650129DF0AD800A6FF2B /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
 		F9AD9BC129D82449008932C5 /* Chapter9View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter9View.swift; sourceTree = "<group>"; };
@@ -169,6 +177,7 @@
 				618D796F29D87CCF004E4C80 /* Chapter12 */,
 				611FE26D29D9C0C000DDE299 /* Chapter13 */,
 				61EF64FE29DF091100A6FF2B /* Chapter14 */,
+				61CD353329E03846001559A7 /* Chapter15 */,
 				615F800529D452A5008BA07D /* Assets.xcassets */,
 				615F800729D452A5008BA07D /* Preview Content */,
 			);
@@ -235,6 +244,17 @@
 				618D796D29D87CC7004E4C80 /* Chapter12View.swift */,
 			);
 			path = Chapter12;
+			sourceTree = "<group>";
+		};
+		61CD353329E03846001559A7 /* Chapter15 */ = {
+			isa = PBXGroup;
+			children = (
+				61CD353429E0385F001559A7 /* Chapter15View.swift */,
+				61CD353A29E04400001559A7 /* UserRegistrationViewModel.swift */,
+				61CD353629E03897001559A7 /* RequirementText.swift */,
+				61CD353829E03938001559A7 /* FormField.swift */,
+			);
+			path = Chapter15;
 			sourceTree = "<group>";
 		};
 		61EF64FE29DF091100A6FF2B /* Chapter14 */ = {
@@ -444,6 +464,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61CD353929E03938001559A7 /* FormField.swift in Sources */,
 				61876B1229D6B79A007DD054 /* Restaurant.swift in Sources */,
 				F9AD9BD629D8244A008932C5 /* Chapter8View.swift in Sources */,
 				F9AD9BCF29D8244A008932C5 /* Chapter9ExceriseView.swift in Sources */,
@@ -459,6 +480,7 @@
 				611FE26C29D9C0BC00DDE299 /* Chapter13View.swift in Sources */,
 				615F800429D452A4008BA07D /* ContentView.swift in Sources */,
 				618D796729D828E1004E4C80 /* Article.swift in Sources */,
+				61CD353B29E04400001559A7 /* UserRegistrationViewModel.swift in Sources */,
 				611FE27129D9DD5300DDE299 /* RestaurantSettingsView.swift in Sources */,
 				F9AD9BD529D8244A008932C5 /* Chapter5View.swift in Sources */,
 				615F800229D452A4008BA07D /* MasteringSwiftUIApp.swift in Sources */,
@@ -466,6 +488,8 @@
 				F9AD9BCE29D8244A008932C5 /* CardView.swift in Sources */,
 				615F802C29D453D1008BA07D /* Chapter10View.swift in Sources */,
 				F9AD9BD329D8244A008932C5 /* Chapter3View.swift in Sources */,
+				61CD353729E03897001559A7 /* RequirementText.swift in Sources */,
+				61CD353529E0385F001559A7 /* Chapter15View.swift in Sources */,
 				61EF650229DF0AD800A6FF2B /* SettingsStore.swift in Sources */,
 				F9AD9BD229D8244A008932C5 /* Chapter2View.swift in Sources */,
 				61EF650029DF093200A6FF2B /* DisplayOrderType.swift in Sources */,
