@@ -8,23 +8,22 @@
 import SwiftUI
 
 struct RestaurantSettingsView: View {
-    var displayOrders = ["Alphabetical",
-                         "Show Favorite First",
-                         "Show Check-i n First"]
-    @State private var selectedOrder = 0
+    @EnvironmentObject var settingStore: SettingsStore
+    @State private var selectedOrder = DisplayOrderType.alphabetic
     @State private var showCheckInOnly = false
     @State private var maxPriceLevel = 5
+    @Environment(\.presentationMode) var presentMode
 
     var body: some View {
         NavigationStack {
             Form {
                 Section {
                     Picker("Display Order", selection: $selectedOrder) {
-                        ForEach(0..<displayOrders.count, id: \.self) {
-                            Text(displayOrders[$0])
+                        ForEach(DisplayOrderType.allCases, id: \.self) { type in
+                            Text(type.text)
                         }
                     }
-                    .pickerStyle(.navigationLink)
+                    .pickerStyle(.menu)
                 } header: {
                     Text("Sort Preference")
                         .textCase(.uppercase)
@@ -44,15 +43,27 @@ struct RestaurantSettingsView: View {
             }
             .navigationTitle("Settings")
             .navigationBarItems(
-                leading: Button(action: { }) {
+                leading: Button(action: {
+                    presentMode.wrappedValue.dismiss()
+                }) {
                     Text("Cancel")
                         .foregroundColor(.black)
                 },
-                trailing: Button(action: { }) {
+                trailing: Button(action: {
+                    settingStore.displayOrder = selectedOrder
+                    settingStore.showCheckInOnly = showCheckInOnly
+                    settingStore.maxPriceLevel = maxPriceLevel
+                    presentMode.wrappedValue.dismiss()
+                }) {
                     Text("Save")
                         .foregroundColor(.black)
                 }
             )
+            .onAppear {
+                selectedOrder = settingStore.displayOrder
+                showCheckInOnly = settingStore.showCheckInOnly
+                maxPriceLevel = settingStore.maxPriceLevel
+            }
         }
     }
 }
@@ -60,5 +71,6 @@ struct RestaurantSettingsView: View {
 struct RestaurantSettingsView_Previews: PreviewProvider {
     static var previews: some View {
         RestaurantSettingsView()
+            .environmentObject(SettingsStore())
     }
 }

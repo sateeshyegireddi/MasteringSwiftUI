@@ -9,11 +9,18 @@ import SwiftUI
 
 struct Chapter13View: View {
     @State private var showSettings = false
-    
+    @EnvironmentObject var settingsStore: SettingsStore
+
     var body: some View {
         NavigationStack {
-            List(Restaurant.list) { restaurant in
-                RestaurantRowView(restaurant: restaurant)
+            List(
+                Restaurant.list.sorted(
+                    by: settingsStore.displayOrder.predicate()
+                )
+            ) { restaurant in
+                if shouldShow(restaurant: restaurant) {
+                    RestaurantRowView(restaurant: restaurant)
+                }
             }
             .listStyle(.plain)
             .navigationTitle("Restaurants")
@@ -28,13 +35,20 @@ struct Chapter13View: View {
             )
             .sheet(isPresented: $showSettings) {
                 RestaurantSettingsView()
+                    .environmentObject(settingsStore)
             }
         }
+    }
+    
+    private func shouldShow(restaurant: Restaurant) -> Bool {
+        return (restaurant.isCheckIn || !settingsStore.showCheckInOnly) &&
+        restaurant.priceLevel <= settingsStore.maxPriceLevel
     }
 }
 
 struct Chapter13View_Previews: PreviewProvider {
     static var previews: some View {
         Chapter13View()
+            .environmentObject(SettingsStore())
     }
 }
