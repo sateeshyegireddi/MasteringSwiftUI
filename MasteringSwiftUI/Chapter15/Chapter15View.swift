@@ -66,14 +66,19 @@ struct Chapter15View: View {
                     .padding()
                     .frame(minWidth: 0, maxWidth: .infinity)
                     .background {
-                        LinearGradient(colors: [
-                            Color(red: 251/255, green: 128/255, blue: 128/255),
-                            Color(red: 253/255, green: 193/255, blue: 104/255)
-                        ], startPoint: .leading, endPoint: .trailing)
+                        LinearGradient(
+                            colors: viewModel.isSignupEnabled ? [
+                                Color(red: 251/255, green: 128/255, blue: 128/255),
+                                Color(red: 253/255, green: 193/255, blue: 104/255)
+                            ] : [Color(UIColor.systemGray3)],
+                            startPoint: .leading,
+                            endPoint: .trailing
+                        )
                     }
                     .cornerRadius(10)
                     .padding()
             }
+            .disabled(!viewModel.isSignupEnabled)
 
             HStack {
                 Text("Already have an account?")

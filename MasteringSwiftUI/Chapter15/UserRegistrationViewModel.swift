@@ -20,6 +20,7 @@ class UserRegistrationViewModel: ObservableObject {
     @Published var isPasswordLengthValid = false
     @Published var isPasswordCapitalLetter = false
     @Published var isPasswordConfirmValid = false
+    @Published var isSignupEnabled = false
     
     private var cancellableSet = Set<AnyCancellable>()
 
@@ -54,6 +55,14 @@ class UserRegistrationViewModel: ObservableObject {
                 return !passwordConfirm.isEmpty && password == passwordConfirm
             }
             .assign(to: \.isPasswordConfirmValid, on: self)
+            .store(in: &cancellableSet)
+        
+        Publishers
+            .CombineLatest4($isUsernameLengthValid, $isPasswordLengthValid,
+                            $isPasswordCapitalLetter, $isPasswordConfirmValid)
+            .receive(on: RunLoop.main)
+            .map { $0 && $1 && $2 && $3 }
+            .assign(to: \.isSignupEnabled, on: self)
             .store(in: &cancellableSet)
     }
 }
